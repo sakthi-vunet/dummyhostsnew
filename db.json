@@ -1,7 +1,7 @@
 {"list":[
   {
     "_id": "62cd1ed6abcbc185f5607e75",
-    "name": "Christie",
+    "name": "host-1",
     "description": "et ipsum nisi id deserunt sunt culpa consequat",
     "OS": "Vortexaco",
     "Running_services": 2,
@@ -9,22 +9,18 @@
     "health_status": "Not Available",
     "services": [
       {
-        "Name": "Potter",
+        "Name": "vuInterface",
         "Instances": 3
       },
       {
-        "Name": "Clare",
-        "Instances": 3
-      },
-      {
-        "Name": "Willa",
-        "Instances": 3
+        "Name": "SNMP vuNode",
+        "Instances": 2
       }
     ]
   },
   {
     "_id": "62cd1ed67904fb75127da4ae",
-    "name": "Ruth",
+    "name": "host-2",
     "description": "cupidatat duis dolor labore deserunt quis aliqua incididunt",
     "OS": "Utara",
     "Running_services": 3,
@@ -32,22 +28,14 @@
     "health_status": "Not Available",
     "services": [
       {
-        "Name": "Mayer",
+        "Name": "vuStreams",
         "Instances": 2
-      },
-      {
-        "Name": "Odessa",
-        "Instances": 1
-      },
-      {
-        "Name": "Benita",
-        "Instances": 1
       }
     ]
   },
   {
     "_id": "62cd1ed657e6a490839a8599",
-    "name": "Mcclure",
+    "name": "host-3",
     "description": "fugiat sunt id adipisicing ut veniam mollit qui",
     "OS": "Exostream",
     "Running_services": 5,
@@ -55,14 +43,14 @@
     "health_status": "Healthy",
     "services": [
       {
-        "Name": "Jefferson",
+        "Name": "vuStreams",
         "Instances": 1
       }
     ]
   },
   {
     "_id": "62cd1ed6541e90796ae238ba",
-    "name": "Cardenas",
+    "name": "host-4",
     "description": "est ut Lorem incididunt cillum veniam Lorem sit",
     "OS": "Isologica",
     "Running_services": 4,
@@ -70,22 +58,18 @@
     "health_status": "Healthy",
     "services": [
       {
-        "Name": "Bray",
+        "Name": "SQL Db",
         "Instances": 1
       },
       {
-        "Name": "Shepard",
-        "Instances": 3
-      },
-      {
-        "Name": "Owens",
+        "Name": "Elastisearch",
         "Instances": 3
       }
     ]
   },
   {
     "_id": "62cd1ed6a0444adc5232b38f",
-    "name": "Little",
+    "name": "host-5",
     "description": "officia aute consectetur ea Lorem cillum amet occaecat",
     "OS": "Buzzopia",
     "Running_services": 1,
@@ -93,18 +77,18 @@
     "health_status": "Not Available",
     "services": [
       {
-        "Name": "Bright",
+        "Name": "Redis",
         "Instances": 1
       },
       {
-        "Name": "Norris",
+        "Name": "SinkConnect",
         "Instances": 1
       }
     ]
   },
   {
     "_id": "62cd1ed66a399c1710493180",
-    "name": "Julie",
+    "name": "host-6",
     "description": "qui excepteur pariatur sint ea laboris occaecat eu",
     "OS": "Providco",
     "Running_services": 3,
@@ -112,18 +96,14 @@
     "health_status": "Healthy",
     "services": [
       {
-        "Name": "Leonor",
+        "Name": "SNMP",
         "Instances": 2
-      },
-      {
-        "Name": "Rojas",
-        "Instances": 1
       }
     ]
   },
   {
     "_id": "62cd1ed61fb7aee5ab4726fd",
-    "name": "Montoya",
+    "name": "host-7",
     "description": "quis fugiat culpa qui do officia fugiat veniam",
     "OS": "Amtas",
     "Running_services": 3,
@@ -131,14 +111,14 @@
     "health_status": "Healthy",
     "services": [
       {
-        "Name": "Mccormick",
+        "Name": "Zookeeper",
         "Instances": 3
       }
     ]
   },
   {
     "_id": "62cd1ed64dc82b8b4dcfcde5",
-    "name": "Brooks",
+    "name": "host-8",
     "description": "mollit magna nostrud sint aliquip aliquip commodo velit",
     "OS": "Unisure",
     "Running_services": 5,
@@ -146,11 +126,11 @@
     "health_status": "Healthy",
     "services": [
       {
-        "Name": "Opal",
+        "Name": "GoFlow",
         "Instances": 2
       },
       {
-        "Name": "Caroline",
+        "Name": "Heartbeat",
         "Instances": 3
       }
     ]
